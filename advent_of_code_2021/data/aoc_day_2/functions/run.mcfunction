@@ -1,5 +1,6 @@
 scoreboard objectives add bpr_aoc_data dummy
 scoreboard objectives add bpr_aoc dummy
+gamerule maxCommandChainLength 1000000
 
 scoreboard players reset * bpr_aoc_data
 scoreboard players set day bpr_aoc 2
