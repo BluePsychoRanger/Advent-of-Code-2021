@@ -10,10 +10,10 @@ scoreboard players set day bpr_aoc_answers 14
 #
 
 data modify storage bpr:aoc Input1 set from storage bpr:aoc MasterInput
-function aoc_2021:logic/day_4/answer_1/run
+schedule function aoc_2021:logic/day_14/answer_1/run 1s
 
 
 data modify storage bpr:aoc Input2 set from storage bpr:aoc MasterInput
-function aoc_2021:logic/day_4/answer_2/run
+schedule function aoc_2021:logic/day_14/answer_2/run 2s
 
 data remove storage bpr:aoc MasterInput

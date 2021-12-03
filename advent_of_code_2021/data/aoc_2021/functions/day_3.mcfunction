@@ -12,9 +12,9 @@ data merge storage bpr:aoc {MasterInput:[['0','1','0','0','1','1','0','0','1','0
 
 
 data modify storage bpr:aoc Input1 set from storage bpr:aoc MasterInput
-function aoc_2021:logic/day_3/answer_1/run
+schedule function aoc_2021:logic/day_3/answer_1/run 1s
 
 data modify storage bpr:aoc Input2 set from storage bpr:aoc MasterInput
-function aoc_2021:logic/day_3/answer_2/run
+schedule function aoc_2021:logic/day_3/answer_2/run 2s
 
 data remove storage bpr:aoc MasterInput
