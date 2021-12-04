@@ -42,4 +42,5 @@ scoreboard objectives remove bpr_aoc_3
 scoreboard objectives remove bpr_aoc_4
 scoreboard objectives remove bpr_aoc_id
 
-tellraw @a ["\n",{"text":"Day 4","underlined": true,"color":"light_purple"},"\n",{"text":"Answer 1: ","color":"aqua"},{"score":{"name":"answer_1","objective":"bpr_aoc_answers"},"color":"green"}]
+tellraw @a ["\n",{"text":"Day 4","underlined": true,"color":"light_purple"}]
+tellraw @a [{"text":"Answer 1: ","color":"aqua"},{"score":{"name":"answer_1","objective":"bpr_aoc_answers"},"color":"green"}]

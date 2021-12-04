@@ -4,4 +4,5 @@ execute store result score i bpr_aoc run data get storage bpr:aoc Input1
 
 function aoc_2021:logic/day_1/answer_1/loop
 
-tellraw @a ["\n",{"text":"Day 1","underlined": true,"color":"light_purple"},"\n",{"text":"Answer 1: ","color":"aqua"},{"score":{"name":"answer_1","objective":"bpr_aoc_answers"},"color":"green"}]
+tellraw @a ["\n",{"text":"Day 1","underlined": true,"color":"light_purple"}]
+tellraw @a [{"text":"Answer 1: ","color":"aqua"},{"score":{"name":"answer_1","objective":"bpr_aoc_answers"},"color":"green"}]
