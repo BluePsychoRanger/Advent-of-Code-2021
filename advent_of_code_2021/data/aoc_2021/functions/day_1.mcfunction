@@ -2,7 +2,7 @@ scoreboard objectives add bpr_aoc dummy
 scoreboard objectives add bpr_aoc_answers dummy
 
 scoreboard players reset * bpr_aoc
-scoreboard players reset * bpr_aoc_answers_answers
+scoreboard players reset * bpr_aoc_answers
 scoreboard players set day bpr_aoc_answers 1
 
 # https://docs.google.com/spreadsheets/d/1N2MxOcC2XAMdlo1-47prOT9MyO_A48WnDV2cmGWARLA/edit?usp=sharing

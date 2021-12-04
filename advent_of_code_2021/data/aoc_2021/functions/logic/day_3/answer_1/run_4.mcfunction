@@ -74,3 +74,5 @@ scoreboard players operation l_total bpr_aoc += l_bit_11 bpr_aoc
 
 scoreboard players operation answer_1 bpr_aoc_answers = m_total bpr_aoc
 scoreboard players operation answer_1 bpr_aoc_answers *= l_total bpr_aoc
+
+tellraw @a ["\n",{"text":"Day 3","underlined": true,"color":"light_purple"},"\n",{"text":"Answer 1: ","color":"aqua"},{"score":{"name":"answer_1","objective":"bpr_aoc_answers"},"color":"green"}]

@@ -7,3 +7,5 @@ function aoc_2021:logic/day_2/answer_2/loop
 
 scoreboard players operation answer_2 bpr_aoc_answers = x bpr_aoc
 scoreboard players operation answer_2 bpr_aoc_answers *= depth bpr_aoc
+
+tellraw @a ["",{"text":"Answer 2: ","color":"aqua"},{"score":{"name":"answer_2","objective":"bpr_aoc_answers"},"color":"green"}]

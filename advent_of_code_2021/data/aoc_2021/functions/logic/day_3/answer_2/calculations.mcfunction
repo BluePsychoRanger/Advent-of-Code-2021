@@ -242,3 +242,18 @@ scoreboard players operation answer_2 bpr_aoc_answers = m_total bpr_aoc
 scoreboard players operation answer_2 bpr_aoc_answers *= l_total bpr_aoc
 
 kill @e[type=marker,scores={bpr_aoc_id=0..}]
+scoreboard objectives remove bpr_aoc_b0
+scoreboard objectives remove bpr_aoc_b1
+scoreboard objectives remove bpr_aoc_b2
+scoreboard objectives remove bpr_aoc_b3
+scoreboard objectives remove bpr_aoc_b4
+scoreboard objectives remove bpr_aoc_b5
+scoreboard objectives remove bpr_aoc_b6
+scoreboard objectives remove bpr_aoc_b7
+scoreboard objectives remove bpr_aoc_b8
+scoreboard objectives remove bpr_aoc_b9
+scoreboard objectives remove bpr_aoc_b10
+scoreboard objectives remove bpr_aoc_b11
+scoreboard objectives remove bpr_aoc_id
+
+tellraw @a ["",{"text":"Answer 2: ","color":"aqua"},{"score":{"name":"answer_2","objective":"bpr_aoc_answers"},"color":"green"}]
