@@ -138,9 +138,3 @@ tag @s[scores={bpr_aoc_1=5..}] add bpr_aoc_winner
 tag @s[scores={bpr_aoc_2=5..}] add bpr_aoc_winner
 tag @s[scores={bpr_aoc_3=5..}] add bpr_aoc_winner
 tag @s[scores={bpr_aoc_4=5..}] add bpr_aoc_winner
-
-
-tag @s add curr
-tag @e[type=marker,tag=!curr] remove current
-tag @s add current
-tag @s remove curr
